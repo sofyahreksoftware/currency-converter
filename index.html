@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency convertier</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/body.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="body">
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li><a class="navigation__link" title="Kalkulator: dolar→złoty" href="#first_section">Przelicz dolar na
+                    złoty</a></li>
+            <li><a class="navigation__link" title="Kalkulator: euro→złoty" href="#first_section">Przelicz euro na
+                    złoty</a></li>
+            <li><a class="navigation__link" title="Kalkulator: złoty→dolar" href="#second_section">Przelicz złoty na
+                    dolar</a></li>
+            <li><a class="navigation__link" title="Kalkulator: złoty→euro" href="#second_section">Przelicz złoty na
+                    euro</a></li>
+        </ul>
+    </nav>
+    <header class="body__header">
+        <h1>Prosty kalkulator walut</h1>
+    </header>
+
+    <main>
+        <section class="section" id="first_section">
+            <form class="form js__form">
+                <fieldset class="form__fieldset">
+                    <legend class="form__legend">Kalkulator dolar/euro→złoty</legend>
+                    <p>
+                        <label><span class="form__labelText">Wybierz walutę (USD/EUR) i wpisz kwotę:<br></span><select
+                                class="form__field js__chooseCurrency" name="currency">
+                                <option class="js__selectUsdOption" value="usd">USD</option>
+                                <option class="js__selectEurOption" value="eur">EUR</option>
+                            </select>
+                        </label>
+                        <label><input min="1" max="100000000" class="form__field js__moneyAmount" name="amount" required placeholder="0.00"
+                                type="number"></label>
+                    </p>
+                </fieldset>
+                <p><button class="form__button js__button">Przelicz kwotę</button><button class="form__button"
+                        type="reset">Wyczyść formularz</button>
+                </p>
+                <p class="form__text">Kwota w <span class="form__currencyText">PLN</span> wynosi: <em
+                        class="form__result js__result"> N/A</em></p>
+            </form>
+        </section>
+        <section class="section section--margin" id="second_section">
+            <form class="form js__form1">
+                <fieldset class="form__fieldset">
+                    <legend class="form__legend">Kalkulator złoty→dolar/euro</legend>
+                    <p>
+                        <label><span class="form__labelText">Wybierz walutę (USD/EUR) i wpisz kwotę w
+                                PLN:<br></span><select class="form__field js__chooseCurrency1" name="currency">
+                                <option class="js__selectUsdOption1" value="usd">USD</option>
+                                <option class="js__selectEurOption1" value="eur">EUR</option>
+                            </select>
+                        </label>
+                        <lable><input min="1" max="100000000" class="form__field js__moneyAmount1" name="amount" required placeholder="0.00"
+                                type="number"></lable>
+
+                    </p>
+                </fieldset>
+                <p><button class="form__button">Przelicz kwotę</button><button class="form__button" type="reset">Wyczyść
+                        formularz</button>
+                </p>
+                <p class="form__text">Kwota w <span class="js__currencyText form__currencyText">...</span> wynosi: <em
+                        class="form__result js__result1"> N/A</em></p>
+            </form>
+        </section>
+    </main>
+
+</body>
+
+</html>

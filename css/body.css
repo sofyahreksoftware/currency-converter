@@ -1,0 +1,14 @@
+.body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0 auto;
+    background: hsl(0, 0%, 85%);
+    max-width: 1000px;
+}
+
+.body__header {
+    text-align: center;
+    background-color: teal;
+    border-bottom: solid teal 1px;
+    padding: 2%;
+    color: white
+}

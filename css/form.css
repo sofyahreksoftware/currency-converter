@@ -1,0 +1,77 @@
+.form {
+    font-size: 20px;
+    margin-top: 25px;
+    padding: 10px;
+}
+
+.form__fieldset {
+    border: solid black 2px;
+    border-radius: 5px;
+}
+
+.form__legend {
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    border: solid hsl(0, 0%, 50%) 1px;
+    border-radius: 5px;
+    padding: 8px;
+    -webkit-box-shadow: inset 45px 10px 100px -95px rgba(0, 128, 128, 1);
+    -moz-box-shadow: inset 45px 10px 100px -95px rgba(0, 128, 128, 1);
+    box-shadow: inset 45px 10px 100px -95px rgba(0, 128, 128, 1);
+}
+
+.form__labelText {
+    margin-right: 5px;
+}
+
+.form__field {
+    border-radius: 5px;
+    border: solid hsl(0, 0%, 50%) 1px;
+    padding: 7px;
+    margin-top: 10px;
+    width: 50%;
+}
+
+.form__field:hover {
+    background-color: hsl(0, 0%, 97%);
+}
+
+.form__button {
+    width: 49%;
+    margin-right: 5px;
+    padding: 9px;
+    color: black;
+    border-radius: 5px;
+    border: solid hsl(0, 0%, 50%) 1px;
+    -webkit-box-shadow: inset 45px 60px 83px -53px rgba(0, 128, 128, 1);
+    -moz-box-shadow: inset 45px 60px 83px -53px rgba(0, 128, 128, 1);
+    box-shadow: inset 45px 60px 83px -53px rgba(0, 128, 128, 1);
+}
+
+.form__button:active {
+    -webkit-box-shadow: inset 45px 10px 100px 28px rgba(0, 128, 128, 1);
+    -moz-box-shadow: inset 45px 10px 100px 28px rgba(0, 128, 128, 1);
+    box-shadow: inset 45px 10px 100px 28px rgba(0, 128, 128, 1);
+    font-weight: bold;
+}
+
+.form__button:hover {
+    color: hsl(0, 0%, 100%);
+
+}
+
+.form__result {
+    font-weight: bold;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.form__text {
+    font-size: 25px;
+    text-align: center;
+}
+
+.form__currencyText {
+    font-weight: bold;
+}

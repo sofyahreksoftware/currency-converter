@@ -1,0 +1,9 @@
+.section {
+    border-bottom: solid white 1px;
+    background-color: white;
+}
+
+.section--margin {
+    margin-top: 80px;
+
+}
