@@ -7,7 +7,7 @@
 }
 
 .navigation__link {
-    color: teal;
+    color: hsl(180, 100%, 35%);
     font-size: 20px;
     font-weight: bold;
     line-height: 1.5;
