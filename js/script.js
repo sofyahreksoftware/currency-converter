@@ -1,3 +1,4 @@
+console.log("Witam wszystkich deweloperów,którzy tutaj zaglądają😜");
 let formElement = document.querySelector(".js__form");
 let usdElement = document.querySelector(".js__selectUsdOption");
 let eurElement = document.querySelector(".js__selectEurOption");
@@ -24,7 +25,6 @@ let eurElement1 = document.querySelector(".js__selectEurOption1");
 let inputElement1 = document.querySelector(".js__moneyAmount1");
 let resultElement1 = document.querySelector(".js__result1");
 let currency = document.querySelector(".js__currencyText");
-console.log(currency)
 
 formElement1.addEventListener("submit", (e) => {
   e.preventDefault();
