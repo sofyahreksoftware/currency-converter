@@ -21,6 +21,11 @@ The  second section convierts PLN *to EUR or USD currency*.
 - jQuery
 - **README**
 - Markdown Language
+- **The Open Graph protocol**
+- og:image
+- og:title
+- og:type
+- og:url 
 
 Added *page icon* and *background* and *share images*.
 
