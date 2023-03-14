@@ -29,3 +29,16 @@ The  second section convierts PLN *to EUR or USD currency*.
 
 Added *page icon* and *background* and *share images*.
 
+## How to use applikation
+
+### How to convert EUR/USD to PLN?
+
+![animation](https://i.postimg.cc/pLSQgvcF/how-to-convert-eur-usd-to-pln.gif)
+
+### How to convert PLN to EUR/USD?
+
+![animation](https://i.postimg.cc/ZYXsSNfw/how-to-convert-pln-to-eur-usd.gif)
+
+### How to reset form?
+
+![animation](https://i.postimg.cc/RVbxrhkd/how-to-reset-form.gif)
