@@ -1,7 +1,7 @@
 # Currency Converter
 
 ## Demo
-[Link for main page of Currency Converter](https://sofyahrek.github.io/currency-converter/)
+[Link for main page of Currency Converter](https://sofyahreksoftware.github.io/currency-converter/)
 
 ## Description
 The navigation helsps to choose section you need.
